@@ -1,0 +1,107 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700");
+
+#main {
+    text-align: center;
+    padding: 15px;
+    margin: 30px 8px;
+    background-color: #f2f2f2;
+}
+
+.main-title {
+    margin: 15px 0;
+    font-size: 3em;
+    font-weight: 200;
+}
+
+.main-subtitle {
+    margin: 7px 0;
+    font-size: 1.3em;
+    font-weight: 200;
+}
+
+#img-div {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: #fff;
+    padding: auto;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#img-caption {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 10px 0;
+}
+
+#tribute-info,
+#tribute-info > div.timeline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tribute-info-title {
+    font-size: 1.5em;
+    font-weight: 200;
+    padding: 16px 0;
+    margin: 8px 0;
+}
+
+.tribute-info-subtitle {
+    text-align: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 1em;
+    width: 60%;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+li {
+    list-style: disc;
+    margin: 32px 0;
+}
+
+blockquote {
+    max-width: 60%;
+    font-family: "Roboto", sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    margin: 8px 0;
+}
+
+blockquote > cite {
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.link-info {
+    margin: 32px 0;
+    font-family: serif;
+    font-size: 1.3rem;
+}
+
+#tribute-link {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    blockquote {
+        max-width: 80%;
+    }
+    .tribute-info-subtitle {
+        width: 80%;
+    }
+}
